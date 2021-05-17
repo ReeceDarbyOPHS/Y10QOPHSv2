@@ -1,0 +1,25 @@
+Tvshows = ["MoneyHeist","BBC One","PrisonBreak","Kebab Shop CCTV"]
+
+print(Tvshows[0])
+print(Tvshows[1])
+print(Tvshows[2])
+print(Tvshows[3])
+
+anymore = True
+
+anymore = str(input("Is there anymore tvshows you want to choose from? TYPE yes OR no >>>"))
+
+while anymore == "yes":
+    anothershow = input(" Name the show you want!!! press no to exit>>>")
+
+    if anothershow != "no":
+        Tvshows.append(anothershow)
+        anymore = False
+
+    elif anothershow == "no":
+        anothershow = "no"
+        anymore = True
+        
+                
+        
+print(Tvshows)
