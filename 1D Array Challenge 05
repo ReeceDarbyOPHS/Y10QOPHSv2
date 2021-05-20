@@ -1,0 +1,28 @@
+Food = []
+
+Food.append(input("Please enter any type of food (e.g Kebab)>>>"))
+Food.append(input("Please enter any type of food (e.g Kebab)>>>"))           
+Food.append(input("Please enter any type of food (e.g Kebab)>>>"))
+Food.append(input("Please enter any type of food (e.g Kebab)>>>"))
+
+print(Food)
+
+delete = int(input("which food do you want to delete? 1,2,3,4 >>>"))
+
+if delete == 1:
+    del Food[0]
+    print(Food)
+
+elif delete == 2:
+    del Food[1]
+    print(Food)
+
+elif delete == 3:
+    del Food[2]
+    print(Food)
+
+elif delete == 4:
+    del Food[3]
+    print(Food)
+
+
