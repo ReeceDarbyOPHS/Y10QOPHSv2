@@ -1,0 +1,17 @@
+nums = []
+
+nums.append(input("Enter a number>>>"))
+nums.append(input("Enter another number>>>"))
+nums.append(input("Enter another number>>>"))
+
+print(nums)
+
+delete = input("do you want to remove the last number you added? Type yes or no >>>")
+
+if delete == "yes":
+    del nums[2]
+    print("Here are your numbers>",nums)
+
+
+elif delete == "no":
+    print("Here are your numbers>",nums)
